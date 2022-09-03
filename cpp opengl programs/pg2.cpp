@@ -87,7 +87,7 @@ glutCreateWindow("create and rotate triangle");
 myInit(),
 glutDisplayFunc(display);
 glutCreateMenu(rotateMenu);
-glutAddMenuEntry("Rotate and Origin",1);
+glutAddMenuEntry("Rotate and Origin point",1);
 glutAddMenuEntry("Rotate around fixed",2);
 	glutAddMenuEntry("stop rotation",3);
 	glutAttachMenu(GLUT_RIGHT_BUTTON);
